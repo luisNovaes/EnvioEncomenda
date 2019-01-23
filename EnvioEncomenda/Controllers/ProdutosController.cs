@@ -10,11 +10,14 @@ using EnvioEncomenda.Models;
 
 namespace EnvioEncomenda.Controllers
 {
+    
     public class ProdutosController : Controller
-    {
+    {   
+
         private EnvioEncomendaContext db = new EnvioEncomendaContext();
 
         // GET: Produtos
+        [Authorize(Roles = "View")]
         public ActionResult Index()
         {
             var produtoes = db.Produtoes.Include(p => p.Categoria);
@@ -22,6 +25,7 @@ namespace EnvioEncomenda.Controllers
         }
 
         // GET: Produtos/Details/5
+        [Authorize(Roles = "View")]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -37,6 +41,7 @@ namespace EnvioEncomenda.Controllers
         }
 
         // GET: Produtos/Create
+        [Authorize(Roles = "Create")]
         public ActionResult Create()
         {
             ViewBag.CategoriaId = new SelectList(db.Categorias, "CategoriaId", "Nome");
@@ -62,6 +67,7 @@ namespace EnvioEncomenda.Controllers
         }
 
         // GET: Produtos/Edit/5
+        [Authorize(Roles = "Edit")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -95,6 +101,7 @@ namespace EnvioEncomenda.Controllers
         }
 
         // GET: Produtos/Delete/5
+        [Authorize(Roles = "Delete")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -110,6 +117,7 @@ namespace EnvioEncomenda.Controllers
         }
 
         // POST: Produtos/Delete/5
+        [Authorize(Roles = "Delete")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

@@ -121,8 +121,8 @@ C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\bin\pt-br\Sy
 C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\bin\pt-br\Microsoft.AspNet.Identity.Core.resources.dll
 C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\bin\pt-br\Microsoft.AspNet.Identity.Owin.resources.dll
 C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\bin\pt-br\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\obj\Debug\EnvioEncomenda.csprojAssemblyReference.cache
 C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\obj\Debug\EnvioEncomenda.csproj.CoreCompileInputs.cache
 C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\obj\Debug\EnvioEncomenda.csproj.CopyComplete
 C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\obj\Debug\EnvioEncomenda.dll
 C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\obj\Debug\EnvioEncomenda.pdb
-C:\Users\Luis Novaes\Desktop\Automind\EnvioEncomenda\EnvioEncomenda\obj\Debug\EnvioEncomenda.csprojAssemblyReference.cache

@@ -54,9 +54,9 @@ namespace EnvioEncomenda
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+               app.UseFacebookAuthentication( 
+               appId: "554178248403283",
+               appSecret: "8ed97c645279dfd52efe401a6aa28b7a");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
