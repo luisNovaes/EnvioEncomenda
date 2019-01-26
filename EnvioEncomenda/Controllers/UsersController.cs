@@ -102,7 +102,6 @@ namespace EnvioEncomenda.Controllers
 
             return View(userView);
         }
-
         [HttpPost]
         public ActionResult AddRole(string userId, FormCollection form)
         {
@@ -159,7 +158,6 @@ namespace EnvioEncomenda.Controllers
 
             return View("Roles", userView);
         }
-
         public ActionResult Roles(string userId)
         {
             var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
@@ -193,7 +191,6 @@ namespace EnvioEncomenda.Controllers
 
             return View(userView);
         }
-
         protected override void Dispose(bool disposing)
         {
             if (disposing)

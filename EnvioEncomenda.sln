@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvioEncomenda", "EnvioEncomenda\EnvioEncomenda.csproj", "{19EA08CE-4AA9-42C7-A3C0-C3316B6EB1BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF", "WCF\WCF.csproj", "{2FB6726D-4FB2-435A-8545-075F89D3AA1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{19EA08CE-4AA9-42C7-A3C0-C3316B6EB1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19EA08CE-4AA9-42C7-A3C0-C3316B6EB1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19EA08CE-4AA9-42C7-A3C0-C3316B6EB1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB6726D-4FB2-435A-8545-075F89D3AA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB6726D-4FB2-435A-8545-075F89D3AA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB6726D-4FB2-435A-8545-075F89D3AA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB6726D-4FB2-435A-8545-075F89D3AA1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -44,5 +44,7 @@ namespace EnvioEncomenda.Models
         public System.Data.Entity.DbSet<EnvioEncomenda.Models.Ordem> Ordem { get; set; }
 
         public System.Data.Entity.DbSet<EnvioEncomenda.Models.OrdemDetalhe> OrdemDetalhe { get; set; }
+
+        public System.Data.Entity.DbSet<EnvioEncomenda.Models.OrdensAPI> OrdensAPIs { get; set; }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace EnvioEncomenda.Models
 {
@@ -40,16 +41,14 @@ namespace EnvioEncomenda.Models
         [DataType(DataType.MultilineText)]
         public string Comentario { get; set; }
 
-
-
         public int CategoriaId { get; set; }
 
+        [JsonIgnore]
         public virtual Categorias Categoria { get; set; }
-
-        //public virtual ICollection<ItensPedido> ItensPedido { get; set; }
-
+        [JsonIgnore]
         public virtual ICollection<FornecedorProduto> FornecedorProduto { get; set; }
-        //public virtual ICollection<OrdemDetalhe> OrdensDetalhes { get; set; }
+        [JsonIgnore]
+        public virtual ICollection<OrdemDetalhe> OrdensDetalhes { get; set; }
 
 
 

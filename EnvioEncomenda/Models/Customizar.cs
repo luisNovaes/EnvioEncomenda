@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using Newtonsoft.Json;
 
 namespace EnvioEncomenda.Models
 {
@@ -35,9 +36,11 @@ namespace EnvioEncomenda.Models
 
         [Display(Name = "Tipo de Documento")]
         public int TipoDocumentoId { get; set; }
-
+        [JsonIgnore]
         public string NomeCompleto { get { return string.Format("{0} {1}", Nome, Sobrenome); } }
+        [JsonIgnore]
         public virtual TipoDocumento TipoDocumento { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Ordem> Ordem { get; set; }
     }
 }
